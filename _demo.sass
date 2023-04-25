@@ -1,3 +1,18 @@
 #demo
-    h1
-        color: red
+    .minibox
+        width: 300px
+        height: 300px
+        border: 1px solid red
+    @media screen and ( max-width: 1000px )
+        .minibox
+            width: 100px
+            height: 100px
+            border: 3px solid black
+    @media screen and ( max-width: 500px )
+        .minibox
+            width: 200px
+            height: 250px
+            border: 5px solid blue
+            border-radius: 10px
+   
+        
