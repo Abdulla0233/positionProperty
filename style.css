@@ -10,28 +10,24 @@ a:hover {
   color: black;
 }
 
-#demo .minibox {
-  width: 300px;
-  height: 300px;
-  border: 1px solid red;
+#demo h1 {
+  font-size: 20px;
 }
-@media screen and (max-width: 1000px) {
-  #demo .minibox {
-    width: 100px;
-    height: 100px;
-    border: 3px solid black;
+@media (max-width: 1200px) {
+  #demo h1 {
+    font-size: 50px;
+    color: red;
   }
 }
-@media screen and (max-width: 500px) {
-  #demo .minibox {
-    width: 200px;
-    height: 250px;
-    border: 5px solid blue;
-    border-radius: 10px;
+@media (max-width: 800px) {
+  #demo h1 {
+    font-size: 100px;
+    color: blue;
   }
 }
-@media screen and (min-width: 200px) {
-  #demo .minibox {
-    background-color: blue;
+@media (max-width: 300px) {
+  #demo h1 {
+    font-size: 150px;
+    color: #1fd267;
   }
 }/*# sourceMappingURL=style.css.map */
